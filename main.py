@@ -12,8 +12,8 @@ from groq import Groq
 
 # ================== НАСТРОЙКИ ==================
 
-BOT_TOKEN = os.getenv("")
-GROQ_API_KEY = os.getenv("")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 OWNER_ID = 5841514062  # <-- замените на свой Telegram user_id
 
@@ -170,3 +170,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
